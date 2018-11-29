@@ -35,7 +35,7 @@ func min(a, b int) int {
 
 // Tile information
 const (
-	LAND = 1 << iota
+	LAND = iota
 	WALL
 )
 
